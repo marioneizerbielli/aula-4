@@ -1,0 +1,13 @@
+def dividir(a, b):
+    resultado = a / b
+    return resultado
+
+# Erro 1: Chamando a função com argumento incorreto
+resultado = dividir(10, 0)
+
+# Erro 2: Utilizando uma variável não declarada
+print("variavel_inexistente")
+
+# Erro 3: Acesso a um índice inválido em uma lista
+lista = [1, 2, 3]
+print(lista[3])
